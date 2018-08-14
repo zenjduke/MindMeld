@@ -1,0 +1,23 @@
+.card {
+  background: #fff;
+  height: 30%;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  min-width: 150px;
+  max-width: 250px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  -webkit-box-shadow: 7px 7px 5px 1px rgba(222,222,222,1);
+  -moz-box-shadow: 7px 7px 5px 1px rgba(222,222,222,1);
+  box-shadow: 7px 7px 5px 1px rgba(222,222,222,1);
+}
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  background:rgb(184, 255, 219);
+}
+
+
+
