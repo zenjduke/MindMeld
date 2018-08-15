@@ -51,7 +51,14 @@ width: 25%;
 }
 
 @media only screen and (max-width: 750px) {
-  #currentScore, #topScore {
+  #scoreSpan {
     font-size: 2rem;
+    width: 50%;
+  }
+  .logo {
+    font-size: 4rem;
+  }
+  #message {
+    display: none;
   }
 }
