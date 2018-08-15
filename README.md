@@ -3,18 +3,19 @@
 ## Game Instructions
 Try to click on each image once. When you click am image, the grid will automatically shuffle. The goal of the game is click all images once, despite the shuffled grid. If you click an image twice the game will reset and you must begin again!
 
-Heroku Link
-The link below will give you direct access to Clicky-Game web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+![mindmeldgif](https://user-images.githubusercontent.com/35474050/44156366-58b524e6-a075-11e8-8763-67e998f690ec.gif)
+
+Play the game here.
 
 ## Local Environment Setup
 To use the MindMeld web application from your local environment, you must accomplish the following steps below:
 
 ### Terminal Bash Steps
 Step #	Description	Terminal Bash Command
-01	Clone this repo	git clone https://github.com/zenjduke/MindMeld.git
-02	Install required NPM packages	npm i
-03	Change directory to the cloned repo folder	cd MindMeld
-04	Start the application	npm start
+01	Clone this repo	```git clone https://github.com/zenjduke/MindMeld.git```
+02	Install required NPM packages	```npm i```
+03	Change directory to the cloned repo folder	```cd MindMeld```
+04	Start the application	```npm start```
 
 ### NPM Packages
 
