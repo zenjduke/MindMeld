@@ -4,7 +4,7 @@
   max-width: 1375px;
   display: flex;
   flex-flow: row wrap;
-  padding: 120px 80px 20px 80px;
+  padding: 160px 20px 20px 20px;
   justify-content: space-evenly;
   align-content: flex-start;
   overflow: auto;

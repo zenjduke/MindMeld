@@ -1,36 +1,52 @@
 .navbar-default {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   margin-bottom: 50px;
-  height: 105px;
-  background: hsl(29, 100%, 85%);
+  height: 125px;
+  background: hsl(0, 0%, 100%);
 }
 
-h3 {
+.logo {
   color: #009c6d;
   font-size: 58px;
   font-weight: 600;
   font-family: "chantal",sans-serif;
+  width: 33%;
+  text-shadow: 4px 4px 12px rgb(141, 185, 168);
+
 }
 
 
 li {
   display: inline-block;
-  padding: 5px 0;
-  width: 33%;
+  padding: 15px 5px 5px 0;
   text-align: center;
 }
 
-.score {
-  justify-content: left;
-  color: #000000;
+#message {
+  color:#009c6d;
   font-size: 22px;
   font-family: "gooddog-new",sans-serif;
   font-weight: 500;
+  width: 60%;
+}
+
+.score {
+  color: #009c6d;
+  font-size: 28px;
+  font-family: "gooddog-new",sans-serif;
+  font-weight: 500;
+  float: center;
 }
 
 ul {
   display: flex;
   align-items: center;
+}
+
+#scoreSpan {
+padding: 10px;
+padding-top: 20px;
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PatternCard from "./components/PatternCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import Nav from "./components/Nav";
 import Patterns from "./patterns.json";
 import "./App.css";
@@ -20,7 +19,7 @@ class App extends Component {
     Patterns,
     currentScore: 0,
     topScore: 0,
-    resultMessage: "",
+    resultMessage: "Click on an image to earn points, but don't click on any more than once!",
     clicked: [],
   };
 
@@ -37,8 +36,9 @@ class App extends Component {
     let newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      resultMessage: ""
+      resultMessage: "Click on an image to earn points, but don't click on any more than once!"
     });
+
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
@@ -52,7 +52,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      resultMessage: "Get yourself together!",
+      resultMessage: "Try again.",
       clicked: []
     });
     this.handleShuffle();
@@ -74,8 +74,6 @@ class App extends Component {
           topScore={this.state.topScore}
           resultMessage={this.state.resultMessage}
         />
-
-        <Title><p>Click on an image to earn points, but don't click on any more than once!</p></Title>
 
         {this.state.Patterns.map(Pattern => (
           <PatternCard
