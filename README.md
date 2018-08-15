@@ -5,7 +5,7 @@ Try to click on each image once. When you click am image, the grid will automati
 
 ![mindmeldgif](https://user-images.githubusercontent.com/35474050/44156366-58b524e6-a075-11e8-8763-67e998f690ec.gif)
 
-Play the game here.
+Play the game here ----> https://memorymindmeld.herokuapp.com/
 
 ## Local Environment Setup
 To use the MindMeld web application from your local environment, you must accomplish the following steps below:
