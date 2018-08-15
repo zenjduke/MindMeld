@@ -4,15 +4,13 @@ import "./Nav.css";
 const Nav = props => (
   <nav className="navbar navbar-default navbar-fixed-top">
     <ul>
-      <li className="brand animated lightSpeedIn">
-        <a href="/">{props.title}</a>
+      <li>
+        <h3 className="animated lightSpeedIn">{props.title}</h3>
       </li>
 
-      <li id="rw">{props.resultMessage}</li>
+      <li id="message">{props.resultMessage}</li>
 
-      <li id="cur-sco">Current Score: {props.score}</li>
-
-      <li id="top-sco">Top Score: {props.topScore}</li>
+      <li><span className="score">Current Score: {props.score}</span><br></br><span className="score">Top Score: {props.score}</span></li>
     </ul>
   </nav>
 );

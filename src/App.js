@@ -75,7 +75,7 @@ class App extends Component {
           resultMessage={this.state.resultMessage}
         />
 
-        <Title><p>Rules:</p></Title>
+        <Title><p>Click on an image to earn points, but don't click on any more than once!</p></Title>
 
         {this.state.Patterns.map(Pattern => (
           <PatternCard
